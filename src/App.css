@@ -1,32 +1,106 @@
-.App {
-  text-align: center;
+
+.app{
+align-content: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+
+
+.game{
+  /* margin: auto; */
+  /* background-image: url('./imgs/cross.png'); */
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.gameBoard{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 1200px;
+  padding-left: 10px;
+  padding-top: 5px;
+    /* background-image: url('./imgs/cross.png'); */
+  /* max-width: 606px; */
+  flex-direction: row;
+  flex-wrap: wrap;
+  float: left;
 }
 
-.App-link {
-  color: #61dafb;
+.tile1{
+    background-image: url('./imgs/split/image_part_001.png');
+}
+.tile2{
+    background-image: url('./imgs/split/image_part_002.png');
+}
+.tile3{
+    background-image: url('./imgs/split/image_part_003.png');
+}
+.tile4{
+    background-image: url('./imgs/split/image_part_004.png');
+}
+.tile5{
+    background-image: url('./imgs/split/image_part_005.png');
+}
+.tile6{
+    background-image: url('./imgs/split/image_part_006.png');
+}
+.tile7{
+    background-image: url('./imgs/split/image_part_007.png');
+}
+.tile8{
+    background-image: url('./imgs/split/image_part_008.png');
+}
+.tile9{
+    background-image: url('./imgs/split/image_part_009.png');
+}
+.tile10{
+    background-image: url('./imgs/split/image_part_010.png');
+}
+.tile11{
+    background-image: url('./imgs/split/image_part_011.png');
+}
+.tile12{
+    background-image: url('./imgs/split/image_part_012.png');
+}
+.tile13{
+    background-image: url('./imgs/split/image_part_013.png');
+}
+.tile14{
+    background-image: url('./imgs/split/image_part_014.png');
+}
+.tile15{
+    background-image: url('./imgs/split/image_part_015.png');
+}
+.tile16{
+    background-image: url('./imgs/split/image_part_016.png');
+}
+.tile17{
+    background-image: url('./imgs/split/image_part_017.png');
+}
+.tile18{
+    background-image: url('./imgs/split/image_part_018.png');
+}
+.tile19{
+    background-image: url('./imgs/split/image_part_019.png');
+}
+.tile20{
+    background-image: url('./imgs/split/image_part_020.png');
+}
+.tile21{
+    background-image: url('./imgs/split/image_part_021.png');
+}
+.tile22{
+    background-image: url('./imgs/split/image_part_022.png');
+}
+.tile23{
+    background-image: url('./imgs/split/image_part_023.png');
+}
+.tile24{
+    background-image: url('./imgs/split/image_part_024.png');
+}
+.tile25{
+    background-image: url('./imgs/split/image_part_025.png');
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.stats{
+  float: right;
+  padding-top: 15px;
+  margin-right: 150px;
 }

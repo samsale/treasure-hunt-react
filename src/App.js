@@ -1,26 +1,27 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import Board from './board.js'
+import Status from './status.js'
 import './App.css';
 
 class App extends Component {
+  constructor(props){
+    super(props)
+    this.state = {board: 25,
+                  treasurePostion: '',
+  }
+}
+
   render() {
+    console.log("props" + this.props);
+
+
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <div className="app">
+      
+      <Board boardSize={this.state.board}/>
+
+
+    </div>
     );
   }
 }
